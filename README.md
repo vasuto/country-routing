@@ -23,6 +23,13 @@ Requirements
 - JDK 17 or higher
 - Maven
 
+## Online demo
+
+Online demo is availale on https://country-routing.onrender.com
+```
+https://country-routing.onrender.com/routing/CZE/ITA
+```
+
 ## Steps to Run the Application
 
 
@@ -70,11 +77,6 @@ Example for Czech Republic to Germany:
 }
 
 Postman collection for trying out is available in the sourcecode.
-
-### Online demo
-
-Online demo is availale on 
-
 
 ### Error Handling:
 
