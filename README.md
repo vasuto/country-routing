@@ -71,11 +71,11 @@ Response:
 A JSON object with the route.
 
 Example for Czech Republic to Germany:
-
+```
 {
   "route": ["CZE", "DEU"]
 }
-
+```
 Postman collection for trying out is available in the sourcecode.
 
 ### Error Handling:
