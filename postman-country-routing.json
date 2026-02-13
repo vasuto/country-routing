@@ -1,0 +1,41 @@
+{
+  "info": {
+    "_postman_id": "7d22f1b7-7f35-4909-bb5a-453abeb90e4b",
+    "name": "Routing API Tests",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Land Route",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/routing/:origin/:destination",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "routing",
+            ":origin",
+            ":destination"
+          ],
+          "variable": [
+            {
+              "key": "origin",
+              "value": "CZE",
+              "description": "Origin country cca3 code"
+            },
+            {
+              "key": "destination",
+              "value": "ITA",
+              "description": "Destination country cca3 code"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: countryrouting
+
+country:
+  api:
+    url: https://raw.githubusercontent.com/mledoze/countries/master/countries.json

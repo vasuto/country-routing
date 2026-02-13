@@ -1,0 +1,8 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.ehcache.org/v3/schema/ehcache-core-3.xsd http://www.ehcache.org/v3/schema/ehcache-core-3.xsd">
+    <cache alias="countriesCache">
+        <expiry>
+            <ttl unit="minutes">60</ttl>
+        </expiry>
+    </cache>
+</ehcache>
